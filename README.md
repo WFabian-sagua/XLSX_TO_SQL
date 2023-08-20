@@ -54,7 +54,7 @@ conn = sqlite3.connect(db_file_path)
 cursor = conn.cursor()
 ```
 
-# Crear tabla bnk_data
+### Crear tabla bnk_data
 Creamos una consulta SQL para crear una tabla llamada bnk_data en la base de datos si aún no existe. Ejecutamos esta consulta utilizando cursor.execute().
 ```python
 # Crear la tabla si no existe
